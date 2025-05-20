@@ -102,7 +102,7 @@ button {
 }
 .content .content-block p { 
     background-color: #DDE7ED;
-    font-size: 20pt;
+    font-size: 16pt;
     display:block;
     float:right;
     width:65%;
@@ -155,13 +155,13 @@ button {
     background:#F8E859;
     text-decoration:none;
     border: 1px solid #3678BD;
-    font-size: 150%;
+    font-size: 100%;
     float: right;
     margin: 37px;
 }
 .column {
     float: left;
-    width: 29.33%;
+    width: 29%;
     padding: 18px;
   }
 #divider{
@@ -183,3 +183,18 @@ button {
     display: table;
     clear: both;
   }
+
+#footer {
+    min-height:200px;
+    background-color:white;
+}
+#footer img{
+    float:left;
+    height: 100px;
+    width:auto;
+}
+#footer p {
+    background: none;
+    color:#3678BD;
+    float:left;
+}
