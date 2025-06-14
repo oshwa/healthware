@@ -129,7 +129,8 @@ button {
     width:100%;
 }
 .site-header{
-    background-image: url(../images/header.png);
+    background:#3678BD;
+    /*background-image: url(../images/header.jpg);*/
     background-size: 100%;
     min-height:500px;
 }
