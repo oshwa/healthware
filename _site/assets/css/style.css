@@ -11,6 +11,7 @@ body{
 .site-header{
     min-height:100px;
     overflow:auto;
+    padding:10px
     border-bottom:10px solid #3678BD;
 }
 h1.site-title img { 
@@ -26,7 +27,7 @@ h1.site-title{
     font-size:40%;
 }
 nav { 
-    background: #F8E859;
+    background: white;
     font-color:#052332; 
 }
 nav ul { 
@@ -37,7 +38,7 @@ nav ul {
     width:100%;
     font-size: 18pt;
     margin: 0 auto;
-    padding: 0;
+    padding: 20px;
     overflow: hidden;
 }
 nav ul li {
@@ -47,20 +48,18 @@ nav ul li {
 nav ul li a {
     display: block;
     text-align: center;
-    padding: 23px 66px;
-    text-decoration: none;
-    
+    padding: 23px 66px;    
     color:#052332;
 }
 
 h3{ 
-    background:#052332;
-    color:#F8E859;
+    background:#3678BD;
+    color:#D8DF4F;
     padding:10px;
 }
 nav ul li a:hover { 
     background:#052332;
-    color:#F8E859;
+    color:#D8DF4F;
 }
 .content { 
     padding: 20px 100px;
@@ -95,11 +94,11 @@ a {
     color: black;
 }
 a:hover{ 
-    color:#F8E859;
+    color:#D8DF4F;
     text-decoration: underline;
 }
 #about p a, #events p a{
-    background:#F8E859;
+    background:#D8DF4F;
     padding:10px;
     font-size: 20pt;
     color:#052332;
@@ -111,8 +110,6 @@ a:hover{
 .content .content-block p { 
     font-size: 14pt;
     display:block;
-    float:right;
-    width:65%;
     line-height: 1.5;
 }
 #involved p, #contact p{ 
@@ -136,17 +133,17 @@ a:hover{
     width:100%;
 }
 .site-header{
-    background:#3678BD;
+    background:#51A8DD;
     /*background-image: url(../images/header.jpg);*/
     background-size: 100%;
-    min-height:500px;
+    min-height:350px;
 }
 .site-header ul{ 
     display: block;
     height: 135px;
     position: fixed;
     top: 0px;
-    background:#F8E859;
+    background:white;
     height: 73px;
 }
 .site-header img{
@@ -160,7 +157,7 @@ a:hover{
 .content .content-block .column a{
     display: inline-block;
     padding: 10px;
-    background:#F8E859;
+    background:#D8DF4F;
     text-decoration:none;
     border: 1px solid #3678BD;
     font-size: 100%;
@@ -227,7 +224,7 @@ a:hover{
 }
 
 .table_component th {
-    background-color: #3678BD;
+    background-color: #72BEAD;
     color: white;
     padding: 5px;
 }
@@ -254,4 +251,7 @@ a:hover{
     display:block;
     width: 400px;
     height:auto
+}
+a { 
+    text-decoration: underline;
 }
